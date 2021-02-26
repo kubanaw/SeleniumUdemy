@@ -12,7 +12,7 @@ public class calendar {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nawrocj2\\Desktop\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.path2usa.com/travel-companions");
-		//May 23
+		//May 24
 		Thread.sleep(5000);
 		driver.findElement(By.id("ez-accept-all")).click();
 		driver.findElement(By.xpath(".//*[@id='travel_date']")).click();
@@ -26,7 +26,7 @@ public class calendar {
 		for (int i=0; i<count; i++)
 		{
 			String text = driver.findElements(By.className("day")).get(i).getText();
-			if(text.equalsIgnoreCase("23"))
+			if(text.equalsIgnoreCase("24"))
 			{
 				driver.findElements(By.className("day")).get(i).click();
 				break;

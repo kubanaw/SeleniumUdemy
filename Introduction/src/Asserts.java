@@ -14,8 +14,7 @@ public class Asserts {
 		WebElement checkbox = driver.findElement(By.id("ctl00_mainContent_chk_SeniorCitizenDiscount"));
 		Assert.assertFalse(driver.findElement(By.id("ctl00_mainContent_chk_SeniorCitizenDiscount")).isSelected());
 		System.out.println((checkbox).isSelected());
-		driver.findElement(By.id("ctl00_mainContent_chk_SeniorCitizenDiscount")).click();
-	
+		checkbox.click();
 		Assert.assertTrue(driver.findElement(By.id("ctl00_mainContent_chk_SeniorCitizenDiscount")).isSelected());
 		System.out.println((checkbox).isSelected());
 		System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());

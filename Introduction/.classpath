@@ -14,5 +14,10 @@
 	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/testng-7.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/commons java/commons-io-2.8.0/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/commons java/commons-io-2.8.0/commons-io-2.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/commons java/commons-io-2.8.0/commons-io-2.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/commons java/commons-io-2.8.0/commons-io-2.8.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nawrocj2/Downloads/commons java/commons-io-2.8.0/commons-io-2.8.0-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

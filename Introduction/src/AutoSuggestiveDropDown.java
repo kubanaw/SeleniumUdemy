@@ -1,6 +1,7 @@
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,6 +37,7 @@ public class AutoSuggestiveDropDown {
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
 		System.out.println(driver.findElement(By.id("autocomplete")).getAttribute("value"));
+		
 
 	}
 }
